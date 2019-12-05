@@ -1,2 +1,2 @@
 Set oShell = WScript.CreateObject("WScript.Shell")
-oShell.run "ipconfig >> ipconfig.txt"
+oShell.run "ipconfig >> %TEMP%\ipconfig.txt"
